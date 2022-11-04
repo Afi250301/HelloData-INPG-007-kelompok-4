@@ -359,13 +359,6 @@ text-decoration: none;
 .bi{
     font-weight: bold;
 }
-.flex-container1{
-    margin-top: 100px;
-    display: flex;
-    padding: auto;
-    align-items: center;
-    margin-left: 150px;
-}
 #box1{
     padding: auto;
     background-color:#F2F6FF;
@@ -449,13 +442,9 @@ text-decoration: none;
     margin-left: 100px;
 }
 .container2{
-    display: flex;
-    padding: auto;
-    margin-left: 300px;
-    padding: 0px;
     font-size: 16px;
-    border-width: 10cm;
     text-align: left;
+    margin: 2% 0;
 }
 .btn{
     border-radius: 100px !important;
@@ -471,27 +460,25 @@ text-decoration: none;
 .form{
     width: 350px;
     height: 47px;
-    /* margin-left: 250px;
-    margin-bottom: 50px;
-    border-radius: 10px; */
     border-radius: 17.5px;
     border: none;
     text-align: center;
+    padding-right: 40px;
 }
 .form::placeholder{
     color: #234CAD;
     opacity: 0.5;
 }
 .iconB{
-    /* position: absolute;
-    right: 517px;
-    top: 1519px; */
     color: white;
     background-color: #234CAD;
     border: #234CAD;
     width: 35px;
     height: 35px;
-    border-radius: 10px;
+    border-radius: 12.5px;
+    position: absolute;
+    right: 37%;
+    margin-bottom: 0.125%;
     
 }
 .text3{
