@@ -77,6 +77,110 @@ text-decoration: none;
     border-radius: 20px;
     background-color: white;
 }
+<<<<<<< HEAD
+=======
+.icon-bg{
+    display: flex;
+    height: 50px ;
+    width: 50px ;
+    background-color: #F2F6FF;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.icon-b{
+    font-size: 16px;
+    font-weight: 700;
+    color: #234CAD;
+    margin: 0;
+}
+.icon-p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #234CAD;
+}
+.icon-text{
+    font-size: 18px;
+    font-weight: 700;
+    color: #234CAD;
+    padding-top: 30%;
+}
+.icon-time{
+    opacity: 75%;
+    font-size: 10px;
+    font-weight: 400;
+}
+.icon-badge{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 70%;
+    bottom: 70%;
+    background-color: #234CAD;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-badge-text{
+    color: white;
+    font-size: 6px;
+    font-weight: 700;
+}
+.quarter-circle{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-top: 3px solid #234CAD;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transform: rotate(45deg);
+}
+.quarter-circle img{
+    transform: rotate(-45deg);
+}
+.three-quarter-circle{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-top: 3px solid transparent;
+    border-left: 3px solid #234CAD;
+    border-right: 3px solid #234CAD;
+    border-bottom: 3px solid #234CAD;
+    transform: rotate(45deg);
+}
+.three-quarter-circle img{
+    transform: rotate(-45deg);
+}
+.full-circle{
+    border: 3px solid #234CAD;
+}
+.small-circle{
+    height: 40px;
+    width: 40px;
+    background-color: #F2F6FF;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+.small-circle p{
+    font-size: 10px;
+    font-weight: 700;
+    padding-top: 50%;
+}
+#uploadBox2{
+    margin-left: 50px !important;  
+    margin-top: -60px !important;  
+}
+#annaBox{
+    margin-left: 25px !important;
+}
+>>>>>>> 0f1f4ac3c11684a5e8d0363bfa01440dc1fb9656
 .my-4{
     height: 52px;
     width: 304px;
