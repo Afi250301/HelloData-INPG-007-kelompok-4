@@ -471,15 +471,21 @@ text-decoration: none;
 .form{
     width: 350px;
     height: 47px;
-    margin-left: 250px;
+    /* margin-left: 250px;
     margin-bottom: 50px;
-    border-radius: 10px;
-    border: white;
+    border-radius: 10px; */
+    border-radius: 17.5px;
+    border: none;
+    text-align: center;
+}
+.form::placeholder{
+    color: #234CAD;
+    opacity: 0.5;
 }
 .iconB{
-    position: absolute;
+    /* position: absolute;
     right: 517px;
-    top: 1519px;
+    top: 1519px; */
     color: white;
     background-color: #234CAD;
     border: #234CAD;
