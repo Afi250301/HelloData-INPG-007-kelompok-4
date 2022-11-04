@@ -21,7 +21,7 @@
     background-color: white;
     width: 90%;
     text-align: center;
-    margin: 20px 5%;
+    margin: 0 5%;
     display: flex;
     justify-content:space-between;
     z-index: 999999;
@@ -81,7 +81,7 @@ text-decoration: none;
     color: #234CAD;
 }
 #home .blueBox{
-    margin-top: 10vh;
+    margin-top: 0;
 }
 .blueBox{
     border-radius: 60px;
@@ -203,12 +203,12 @@ text-decoration: none;
     margin-left: 50px !important;
     position: absolute;
     right: 8%;
-    bottom: 22%;
+    bottom: 28%;
 }
 #chatBox{
     position: absolute;
     right: 24%;
-    bottom: 10%;
+    bottom: 15%;
 }
 .section2-b{
     font-size: 30px;
