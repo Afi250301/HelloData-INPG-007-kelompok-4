@@ -70,7 +70,6 @@ text-decoration: none;
 .col-sm-6{
     border-radius: 50px;
     padding: 20px;
-
 }
 .flex-container{
     display: flex;
@@ -183,7 +182,8 @@ text-decoration: none;
   }
   .test-button{
     border:2px solid #234CAD  !important;
-    font-weight: bold;
+    font-weight: bold !important;
+    font-size: 16pt !important;
   }
 #box2{
     padding: auto;
@@ -214,12 +214,15 @@ text-decoration: none;
     background-color: white !important;
     width: 180px;
     height: 50px;
+    font-weight: bold !important;
+    font-size:16pt !important;
   }
 .paragraf{
     font-size: 15pt;
 }
 .angka{
     font-size: 40pt;
+    font-weight: bold;
 }
 .container1{
     padding: auto;
@@ -264,7 +267,8 @@ text-decoration: none;
     border:2px solid #234CAD  !important;
     width: 180px;
     height: 50px;
-    font-weight: bold;
+    font-weight: bold !important;
+    font-size: 16pt !important;
 }
 .form{
     width: 350px;
@@ -285,4 +289,134 @@ text-decoration: none;
     height: 35px;
     border-radius: 10px;
     
+}
+.text3{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 597px;
+    Top: 200px;
+}
+.text4{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 553px;
+    Top: 200px;
+}
+.text5{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 512px;
+    Top: 200px;
+}
+.text6{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 467px;
+    Top: 200px;
+}
+.text7{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 261px;
+    Top: 200px;
+}
+.text8{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 220px;
+    Top: 200px;
+}
+.text9{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 179px;
+    Top: 200px;
+}
+.text10{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 597px;
+    Top: 400px;
+}
+.text11{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 554px;
+    Top: 400px;
+}
+.text12{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 264px;
+    Top: 400px;
+}
+.text13{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 220px;
+    Top: 400px;
+}
+.text14{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 176px;
+    Top: 400px;
+}
+.text15{
+    position: absolute;
+    Font-family: Nunito;
+    font-weight: Bold;
+    Font-size: 10px;
+    Line-height: 14px;
+    Line-height: 103%;
+    right: 133px;
+    Top: 400px;
 }
