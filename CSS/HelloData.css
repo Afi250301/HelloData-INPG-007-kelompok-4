@@ -27,7 +27,7 @@
     justify-content:space-between;
     z-index: 999999;
 }
-#nav-logo{
+.nav-logo{
     display: flex;
     height: 50px;
     width: 50px;
@@ -65,7 +65,6 @@ text-decoration: none;
 }
 .blueBox{
     border-radius: 60px;
-    width: 90%;
     background-color: #F2F6FF;
 }
 .blueBox div button{
@@ -77,56 +76,6 @@ text-decoration: none;
 .smallCard{
     border-radius: 20px;
     background-color: white;
-}
-.icon-bg{
-    display: flex;
-    height: 50px ;
-    width: 50px ;
-    background-color: #F2F6FF;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-}
-.icon-b{
-    font-size: 16px;
-    font-weight: 700;
-    color: #234CAD;
-    margin: 0;
-}
-.icon-p{
-    font-size: 12px;
-    font-weight: 400;
-    color: #234CAD;
-}
-.quarter-circle{
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    border-top: 3px solid #234CAD;
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-bottom: 3px solid transparent;
-    transform: rotate(45deg);
-}
-.quarter-circle img{
-    transform: rotate(-45deg);
-}
-.three-quarter-circle{
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    border-top: 3px solid transparent;
-    border-left: 3px solid #234CAD;
-    border-right: 3px solid #234CAD;
-    border-bottom: 3px solid #234CAD;
-    transform: rotate(45deg);
-}
-.three-quarter-circle img{
-    transform: rotate(-45deg);
-}
-#uploadBox2{
-    margin-left: 50px !important;  
-    margin-top: -60px !important;  
 }
 .my-4{
     height: 52px;
@@ -158,15 +107,55 @@ text-decoration: none;
 }
 
 .icon{
+    position: absolute;
     height: 20px;
     width: 20px;
-    left: 605px;
-    top: 140px;
+    right: 584px;
+    top: 138px;
     border-radius: 0px;
-    
+}
+.icon1{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 250px;
+    top: 138px;
+    border-radius: 0px;
+}
+.icon2{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 584px;
+    top: 339px;
+    border-radius: 0px;
+}
+.icon3{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 249px;
+    top: 339px;
+    border-radius: 0px;
+}
+.icon4{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 584px;
+    top: 539px;
+    border-radius: 0px;
+}
+.icon5{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 249px;
+    top: 539px;
+    border-radius: 0px;
 }
 .text{
-    width: auto;
+    width: 115px;
     font-size: 16px;
     line-height: 21px;
     font-weight: bold;
@@ -197,10 +186,6 @@ text-decoration: none;
     padding: auto;
     align-items: center;
     margin-left: 150px;
-}
-.flex-container2{
-    display: flex;
-    
 }
 #box1{
     padding: auto;
@@ -261,13 +246,13 @@ text-decoration: none;
 .container1{
     padding: auto;
     background-color: #F2F6FF;
-    border-radius: 50px;
 }
 #enter{
     padding: auto;
     padding: 50px;
     width: 1000px;
     margin-left: 190px;
+    border-radius: 50px ;
 }
 .footer{
     display: flex;
@@ -313,140 +298,144 @@ text-decoration: none;
     border: white;
 }
 .iconB{
+    position: absolute;
+    right: 517px;
+    top: 1519px;
     color: white;
     background-color: #234CAD;
     border: #234CAD;
     width: 35px;
     height: 35px;
     border-radius: 10px;
-    margin-left: -46px;
+    
 }
 .text3{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 597px;
+    Top: 200px;
 }
 .text4{
-    /* position: relative; */
-    /* display: flex; */
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 553px;
+    Top: 200px;
 }
 .text5{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 512px;
+    Top: 200px;
 }
 .text6{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 467px;
+    Top: 200px;
 }
 .text7{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 261px;
+    Top: 200px;
 }
 .text8{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 220px;
+    Top: 200px;
 }
 .text9{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 179px;
+    Top: 200px;
 }
 .text10{
-
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 597px;
+    Top: 400px;
 }
 .text11{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 554px;
+    Top: 400px;
 }
 .text12{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 264px;
+    Top: 400px;
 }
 .text13{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;}
+    right: 220px;
+    Top: 400px;
+}
 .text14{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 176px;
+    Top: 400px;
 }
 .text15{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-.circle{
-    border: 2px solid #234CAD;
-    height: 60px;
-    width: 60px;
-    left: 585px;
-    top: 120px;
-    border-radius: 50px;
-    align-items: center;
-    justify-content: center;
+    right: 133px;
+    Top: 400px;
 }
