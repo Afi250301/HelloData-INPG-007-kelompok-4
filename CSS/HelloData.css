@@ -17,9 +17,15 @@
     src: url(../font/Nunito-VariableFont_wght.ttf);
 }
 #nav-bar{
-    margin: 50px 100px;
+    position: fixed;
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    /* margin: 50px 100px; */
+    margin: 50px 5%;
     display: flex;
     justify-content:space-between;
+    z-index: 999999;
 }
 #nav-logo{
     display: flex;
