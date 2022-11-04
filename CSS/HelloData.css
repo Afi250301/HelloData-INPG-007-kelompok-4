@@ -1,6 +1,6 @@
 .body{
     color: #234CAD;
-    font-family: Nunito;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
     font-weight: 800px;
 }
 .main-header{
@@ -15,6 +15,67 @@
 @font-face {
     font-family: Nunito;
     src: url(../font/Nunito-VariableFont_wght.ttf);
+}
+#nav-bar{
+    position: fixed;
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    /* margin: 50px 100px; */
+    margin: 50px 5%;
+    display: flex;
+    justify-content:space-between;
+    z-index: 999999;
+}
+.nav-logo{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #F2F6FF;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#nav-menu ul li{
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #234CAD;
+}
+#nav-menu ul li a{
+text-decoration: none;
+}
+#nav-login{
+    font-size: 18px;
+    font-weight: 700;
+}
+#loginButton{
+    margin-right: 25px;
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #234CAD;
+}
+#signupButton{
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #F2F6FF;
+}
+.blueBox{
+    border-radius: 60px;
+    background-color: #F2F6FF;
+}
+.blueBox div button{
+    height: 65px;
+    width: 200px;
+    border-radius: 32.5px;
+    border: 2px solid #234CAD;
+}
+.smallCard{
+    border-radius: 20px;
+    background-color: white;
 }
 .my-4{
     height: 52px;
@@ -56,16 +117,15 @@
 .text{
     width: 115px;
     font-size: 16px;
-    Line-height: 21px;
-    line-height: 96%;
-    align: center;
-    vertical-align: text-top;
-    Fill: Solid;
+    line-height: 21px;
+    font-weight: bold;
     margin-top: 15px;
     margin-left: 15px;}
 .kata{
     margin-left: 75px;
     margin-top: -30px;
+    font-size: 12px;
+    line-height: 21px;
 }
 .box{
   background-color:white;
