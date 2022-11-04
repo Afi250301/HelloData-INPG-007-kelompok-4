@@ -1,6 +1,6 @@
 .body{
     color: #234CAD;
-    font-family: Nunito;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
     font-weight: 800px;
 }
 .main-header{
@@ -15,6 +15,47 @@
 @font-face {
     font-family: Nunito;
     src: url(../font/Nunito-VariableFont_wght.ttf);
+}
+#nav-bar{
+    margin: 50px 100px;
+    display: flex;
+    justify-content:space-between;
+}
+#nav-logo{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #F2F6FF;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#nav-menu ul li{
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #234CAD;
+}
+#nav-menu ul li a{
+text-decoration: none;
+}
+#nav-login{
+    font-size: 18px;
+    font-weight: 700;
+}
+#loginButton{
+    margin-right: 25px;
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #234CAD;
+}
+#signupButton{
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #F2F6FF;
 }
 .my-4{
     height: 52px;
