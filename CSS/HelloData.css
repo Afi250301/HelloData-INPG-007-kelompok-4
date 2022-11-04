@@ -76,6 +76,9 @@ text-decoration: none;
     border-radius: 32.5px;
     border: 2px solid #234CAD;
     background-color: transparent;
+    font-size: 22px;
+    font-weight: 700;
+    color: #234CAD;
 }
 #home .blueBox{
     margin-top: 10vh;
@@ -83,6 +86,7 @@ text-decoration: none;
 .blueBox{
     border-radius: 60px;
     background-color: #F2F6FF;
+    width: 80%;
 }
 .blueBox div button{
     height: 65px;
@@ -198,13 +202,13 @@ text-decoration: none;
 #messageBox{
     margin-left: 50px !important;
     position: absolute;
-    right: 4%;
-    bottom: 18%;
+    right: 8%;
+    bottom: 22%;
 }
 #chatBox{
     position: absolute;
-    right: 22%;
-    bottom: 4%;
+    right: 24%;
+    bottom: 10%;
 }
 .section2-b{
     font-size: 30px;
@@ -229,6 +233,28 @@ text-decoration: none;
 }
 #section3-chat{
     margin-top: 25px !important;
+}
+#section4-spencerBox{
+    margin-left: 26px !important;
+    margin-top: -25px !important;
+}
+#section4-uploadBox{
+    margin-left: 26px !important;
+}
+#section4-uploadBox2{
+    position: absolute;
+    left: 36.5%;
+    bottom:1%;
+}
+#section4-save{
+    position: absolute;
+    left: 15%;
+    bottom:26%;
+}
+#section4-chatBox{
+    position: absolute;
+    left: 30.5%;
+    bottom:16%;
 }
 .my-4{
     height: 52px;
