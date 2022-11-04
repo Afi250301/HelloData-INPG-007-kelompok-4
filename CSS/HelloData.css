@@ -21,8 +21,7 @@
     background-color: white;
     width: 90%;
     text-align: center;
-    /* margin: 50px 100px; */
-    margin: 50px 5%;
+    margin: 20px 5%;
     display: flex;
     justify-content:space-between;
     z-index: 999999;
@@ -62,6 +61,24 @@ text-decoration: none;
     height: 50px;
     border-radius: 25px;
     background-color: #F2F6FF;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: 700px;
+}
+.sub-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.app-button{
+    width: 200px;
+    height: 65px;
+    border-radius: 32.5px;
+    border: 2px solid #234CAD;
+    background-color: transparent;
+}
+#home .blueBox{
+    margin-top: 10vh;
 }
 .blueBox{
     border-radius: 60px;
@@ -178,6 +195,41 @@ text-decoration: none;
 }
 #annaBox{
     margin-left: 25px !important;
+}
+#messageBox{
+    margin-left: 50px !important;
+    position: absolute;
+    right: 4%;
+    bottom: 18%;
+}
+#chatBox{
+    position: absolute;
+    right: 22%;
+    bottom: 4%;
+}
+.section2-b{
+    font-size: 30px;
+    font-weight: 600;
+}
+.section2-p{
+    font-size: 22px;
+    font-weight: 400;
+}
+.section2-bg{
+    height: 100px ;
+    width: 100px ;
+    background-color: #F2F6FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3-box{
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+#section3-chat{
+    margin-top: 25px !important;
 }
 .my-4{
     height: 52px;
