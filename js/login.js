@@ -7,7 +7,7 @@ if (localStorage.getItem("isLogin") == "false" || localStorage.getItem("isLogin"
         localStorage.setItem("isLogin", "true");
         document.getElementById("lemail").value = "";
       }
-      location.replace("HelloData.html");
+      location.replace("home.html");
   });
 } else {
   document.getElementById("loginButton").classList.add("d-none");
