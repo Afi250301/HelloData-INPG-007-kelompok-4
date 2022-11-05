@@ -261,19 +261,7 @@ text-decoration: none;
     margin-left: 26px !important;
 }
 #section4-uploadBox2{
-    position: absolute;
-    left: 658px;
-    bottom: 15px;
-}
-#section4-save{
-    position: absolute;
-    left: 280px;
-    bottom:250px;
-}
-#section4-chatBox{
-    position: absolute;
-    left: 555px;
-    bottom: 150px;
+    margin-bottom: -500px;
 }
 .my-4{
     height: 52px;
