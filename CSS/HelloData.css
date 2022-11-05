@@ -41,6 +41,9 @@ p{
     align-items: center;
     justify-content: center;
 }
+#nav-menu{
+    margin-right: -20%;
+}
 #nav-menu ul li{
     margin: 0 25px;
     font-size: 18px;
@@ -211,23 +214,25 @@ text-decoration: none;
     font-weight: 700;
     padding-top: 50%;
 }
-#uploadBox2{
-    margin-left: 50px !important;  
+#uploadBox{
+    margin-right: 50px !important;
+}
+#uploadBox2{  
     margin-top: -60px !important;  
 }
-#annaBox{
-    margin-left: 25px !important;
+#teamBox{
+    margin-right: 25px !important;
+}
+#johnBox{
+    margin-right: 50px !important;
 }
 #messageBox{
-    margin-left: 50px !important;
-    position: absolute;
-    right: 8%;
-    bottom: 28%;
+    margin-top: -50px !important;
 }
 #chatBox{
-    position: absolute;
-    right: 24%;
-    bottom: 15%;
+    margin-top: -30px !important;
+    margin-bottom: -60px !important;
+    margin-right: -130px !important;
 }
 .section2-b{
     font-size: 30px;
