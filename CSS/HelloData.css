@@ -268,6 +268,9 @@ text-decoration: none;
 #section4-uploadBox2{
     margin-bottom: -500px;
 }
+#section5-board{
+    margin-right: -25% !important;
+}
 .my-4{
     height: 52px;
     width: 304px;
