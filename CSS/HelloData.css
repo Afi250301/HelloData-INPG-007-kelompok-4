@@ -21,13 +21,12 @@
     background-color: white;
     width: 90%;
     text-align: center;
-    /* margin: 50px 100px; */
-    margin: 50px 5%;
+    margin: 0 5%;
     display: flex;
     justify-content:space-between;
     z-index: 999999;
 }
-#nav-logo{
+.nav-logo{
     display: flex;
     height: 50px;
     width: 50px;
@@ -63,10 +62,31 @@ text-decoration: none;
     border-radius: 25px;
     background-color: #F2F6FF;
 }
+.main-text{
+    font-size: 48px;
+    font-weight: 700px;
+}
+.sub-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.app-button{
+    width: 200px;
+    height: 65px;
+    border-radius: 32.5px;
+    border: 2px solid #234CAD;
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 700;
+    color: #234CAD;
+}
+#home .blueBox{
+    margin-top: 0;
+}
 .blueBox{
     border-radius: 60px;
-    width: 90%;
     background-color: #F2F6FF;
+    width: 80%;
 }
 .blueBox div button{
     height: 65px;
@@ -98,6 +118,35 @@ text-decoration: none;
     font-weight: 400;
     color: #234CAD;
 }
+.icon-text{
+    font-size: 18px;
+    font-weight: 700;
+    color: #234CAD;
+    padding-top: 30%;
+}
+.icon-time{
+    opacity: 75%;
+    font-size: 10px;
+    font-weight: 400;
+}
+.icon-badge{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 70%;
+    bottom: 70%;
+    background-color: #234CAD;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-badge-text{
+    color: white;
+    font-size: 6px;
+    font-weight: 700;
+}
 .quarter-circle{
     border-radius: 50%;
     width: 60px;
@@ -124,9 +173,88 @@ text-decoration: none;
 .three-quarter-circle img{
     transform: rotate(-45deg);
 }
+.full-circle{
+    border: 3px solid #234CAD;
+}
+.small-circle{
+    height: 40px;
+    width: 40px;
+    background-color: #F2F6FF;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+.small-circle p{
+    font-size: 10px;
+    font-weight: 700;
+    padding-top: 50%;
+}
 #uploadBox2{
     margin-left: 50px !important;  
     margin-top: -60px !important;  
+}
+#annaBox{
+    margin-left: 25px !important;
+}
+#messageBox{
+    margin-left: 50px !important;
+    position: absolute;
+    right: 8%;
+    bottom: 28%;
+}
+#chatBox{
+    position: absolute;
+    right: 24%;
+    bottom: 15%;
+}
+.section2-b{
+    font-size: 30px;
+    font-weight: 600;
+}
+.section2-p{
+    font-size: 22px;
+    font-weight: 400;
+}
+.section2-bg{
+    height: 100px ;
+    width: 100px ;
+    background-color: #F2F6FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3-box{
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+#section3-chat{
+    margin-top: 25px !important;
+}
+#section4-spencerBox{
+    margin-left: 26px !important;
+    margin-top: -25px !important;
+}
+#section4-uploadBox{
+    margin-left: 26px !important;
+}
+#section4-uploadBox2{
+    position: absolute;
+    left: 36.5%;
+    bottom:1%;
+}
+#section4-save{
+    position: absolute;
+    left: 15%;
+    bottom:26%;
+}
+#section4-chatBox{
+    position: absolute;
+    left: 30.5%;
+    bottom:16%;
 }
 .my-4{
     height: 52px;
@@ -158,14 +286,55 @@ text-decoration: none;
 }
 
 .icon{
+    position: absolute;
     height: 20px;
     width: 20px;
-    left: 605px;
-    top: 140px;
+    right: 584px;
+    top: 138px;
+    border-radius: 0px;
+}
+.icon1{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 250px;
+    top: 138px;
+    border-radius: 0px;
+}
+.icon2{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 584px;
+    top: 339px;
+    border-radius: 0px;
+}
+.icon3{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 249px;
+    top: 339px;
+    border-radius: 0px;
+}
+.icon4{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 584px;
+    top: 539px;
+    border-radius: 0px;
+}
+.icon5{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 249px;
+    top: 539px;
     border-radius: 0px;
 }
 .text{
-    width: auto;
+    width: 115px;
     font-size: 16px;
     line-height: 21px;
     font-weight: bold;
@@ -189,17 +358,6 @@ text-decoration: none;
 }
 .bi{
     font-weight: bold;
-}
-.flex-container1{
-    margin-top: 100px;
-    display: flex;
-    padding: auto;
-    align-items: center;
-    margin-left: 150px;
-}
-.flex-container2{
-    display: flex;
-    
 }
 #box1{
     padding: auto;
@@ -260,13 +418,13 @@ text-decoration: none;
 .container1{
     padding: auto;
     background-color: #F2F6FF;
-    border-radius: 50px;
 }
 #enter{
     padding: auto;
     padding: 50px;
     width: 1000px;
     margin-left: 190px;
+    border-radius: 50px ;
 }
 .footer{
     display: flex;
@@ -284,13 +442,9 @@ text-decoration: none;
     margin-left: 100px;
 }
 .container2{
-    display: flex;
-    padding: auto;
-    margin-left: 300px;
-    padding: 0px;
     font-size: 16px;
-    border-width: 10cm;
     text-align: left;
+    margin: 2% 0;
 }
 .btn{
     border-radius: 100px !important;
@@ -306,10 +460,14 @@ text-decoration: none;
 .form{
     width: 350px;
     height: 47px;
-    margin-left: 250px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    border: white;
+    border-radius: 17.5px;
+    border: none;
+    text-align: center;
+    padding-right: 40px;
+}
+.form::placeholder{
+    color: #234CAD;
+    opacity: 0.5;
 }
 .iconB{
     color: white;
@@ -317,135 +475,139 @@ text-decoration: none;
     border: #234CAD;
     width: 35px;
     height: 35px;
-    border-radius: 10px;
-    margin-left: -46px;
+    border-radius: 12.5px;
+    position: absolute;
+    right: 37%;
+    margin-bottom: 0.125%;
+    
 }
 .text3{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 597px;
+    Top: 200px;
 }
 .text4{
-    /* position: relative; */
-    /* display: flex; */
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 553px;
+    Top: 200px;
 }
 .text5{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 512px;
+    Top: 200px;
 }
 .text6{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 467px;
+    Top: 200px;
 }
 .text7{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 261px;
+    Top: 200px;
 }
 .text8{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 220px;
+    Top: 200px;
 }
 .text9{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 179px;
+    Top: 200px;
 }
 .text10{
-
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 597px;
+    Top: 400px;
 }
 .text11{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 554px;
+    Top: 400px;
 }
 .text12{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 264px;
+    Top: 400px;
 }
 .text13{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;}
+    right: 220px;
+    Top: 400px;
+}
 .text14{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
+    right: 176px;
+    Top: 400px;
 }
 .text15{
+    position: absolute;
     Font-family: Nunito;
     font-weight: Bold;
     Font-size: 10px;
     Line-height: 14px;
     Line-height: 103%;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-.circle{
-    border: 2px solid #234CAD;
-    height: 60px;
-    width: 60px;
-    left: 585px;
-    top: 120px;
-    border-radius: 50px;
-    align-items: center;
-    justify-content: center;
+    right: 133px;
+    Top: 400px;
 }
