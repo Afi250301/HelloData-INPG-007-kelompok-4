@@ -14,5 +14,5 @@ if (localStorage.getItem("isLogin") == "false" || localStorage.getItem("isLogin"
   document.getElementById("userButton").classList.remove("d-none");
   document.getElementById("signupButton").classList.add("d-none");
   document.getElementById("signoutButton").classList.remove("d-none");
-  document.getElementById("userButton").innerHTML = localStorage.getItem("username")
+  document.getElementById("userButton").innerHTML = localStorage.getItem("username");
 }
