@@ -13,7 +13,6 @@ if (localStorage.getItem("isLogin") == "true") {
 (function($) {
     "use strict"; 
 	
-	/* Preloader */
 	$(window).on('load', function() {
 		var preloaderFadeOutTime = 500;
 		function hidePreloader() {
@@ -25,9 +24,6 @@ if (localStorage.getItem("isLogin") == "true") {
 		hidePreloader();
 	});
 
-	
-	/* Navbar Scripts */
-	// jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
 		if ($(".navbar").offset().top > 60) {
 			$(".fixed-top").addClass("top-nav-collapse");
@@ -36,7 +32,6 @@ if (localStorage.getItem("isLogin") == "true") {
 		}
     });
 
-	// jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
 		$(document).on('click', 'a.page-scroll', function(event) {
 			var $anchor = $(this);
@@ -47,16 +42,11 @@ if (localStorage.getItem("isLogin") == "true") {
 		});
 	});
 
-    // closes the responsive menu on menu item click
     $(".navbar-nav li a").on("click", function(event) {
     if (!$(this).parent().hasClass('dropdown'))
         $(".navbar-collapse").collapse('hide');
     });
-
-    
-    /* Move Form Fields Label When User Types */
-    // for input and textarea fields
-    $("input, textarea").keyup(function(){
+        $("input, textarea").keyup(function(){
 		if ($(this).val() != '') {
 			$(this).addClass('notEmpty');
 		} else {
@@ -64,22 +54,17 @@ if (localStorage.getItem("isLogin") == "true") {
 		}
     });
 
-
-    /* Sign Up Form */
     $("#signUpForm").validator().on("submit", function(event) {
     	if (event.isDefaultPrevented()) {
-            // handle the invalid form...
             sformError();
             ssubmitMSG(false, "Please fill all fields!");
         } else {
-            // everything looks good!
             event.preventDefault();
             ssubmitForm();
         }
     });
 
     function ssubmitForm() {
-        // initiate variables with form content
 		var email = $("#semail").val();
 		var name = $("#sname").val();
 		var password = $("#spassword").val();
@@ -103,7 +88,7 @@ if (localStorage.getItem("isLogin") == "true") {
     function sformSuccess() {
         $("#signUpForm")[0].reset();
         ssubmitMSG(true, "Sign Up Submitted!");
-        $("input").removeClass('notEmpty'); // resets the field label after submission
+        $("input").removeClass('notEmpty');
     }
 
     function sformError() {
@@ -121,22 +106,17 @@ if (localStorage.getItem("isLogin") == "true") {
         $("#smsgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
 
-
-    /* Log In Form */
     $("#logInForm").validator().on("submit", function(event) {
     	if (event.isDefaultPrevented()) {
-            // handle the invalid form...
             lformError();
             lsubmitMSG(false, "Please fill all fields!");
         } else {
-            // everything looks good!
             event.preventDefault();
             lsubmitForm();
         }
     });
 
     function lsubmitForm() {
-        // initiate variables with form content
 		var email = $("#lemail").val();
 		var password = $("#lpassword").val();
         
@@ -158,7 +138,7 @@ if (localStorage.getItem("isLogin") == "true") {
     function lformSuccess() {
         $("#logInForm")[0].reset();
         lsubmitMSG(true, "Log In Submitted!");
-        $("input").removeClass('notEmpty'); // resets the field label after submission
+        $("input").removeClass('notEmpty');
     }
 
     function lformError() {
@@ -176,9 +156,6 @@ if (localStorage.getItem("isLogin") == "true") {
         $("#lmsgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
     
-
-    /* Back To Top Button */
-    // create the back to top button
     $('body').prepend('<a href="body" class="back-to-top page-scroll">Back to Top</a>');
     var amountScrolled = 700;
     $(window).scroll(function() {

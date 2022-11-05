@@ -10,9 +10,9 @@ if (localStorage.getItem("isLogin") == "false" || localStorage.getItem("isLogin"
       location.replace("HelloData.html");
   });
 } else {
-  document.getElementById("loginNav").classList.add("d-none");
-  document.getElementById("userNav").classList.remove("d-none");
-  document.getElementById("signupNav").classList.add("d-none");
-  document.getElementById("signoutNav").classList.remove("d-none");
-  document.getElementById("userNav").innerHTML = localStorage.getItem("username")
+  document.getElementById("loginButton").classList.add("d-none");
+  document.getElementById("userButton").classList.remove("d-none");
+  document.getElementById("signupButton").classList.add("d-none");
+  document.getElementById("signoutButton").classList.remove("d-none");
+  document.getElementById("userButton").innerHTML = localStorage.getItem("username")
 }
